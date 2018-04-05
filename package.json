@@ -11,7 +11,7 @@
   "scripts": {
     "test": "eslint test && mocha --compilers js:babel/register",
     "prepublish": "eslint src && babel -d dist src",
-    "preinstall": "npm install babel babel-eslint eslint mocha babel-preset-es2015 babel-preset-react babel-preset-stage-0",
+    "preinstall": "npm install babel@6.0.0 babel-eslint eslint mocha babel-preset-es2015 babel-preset-react babel-preset-stage-0",
     "postinstall": "eslint src && babel -d dist src"
   },
   "main": "dist/index.js",
