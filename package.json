@@ -11,7 +11,7 @@
   "scripts": {
     "test": "eslint test && mocha --compilers js:babel/register",
     "prepublish": "eslint src && babel -d dist src",
-    "preinstall": "npm install",
+    "preinstall": "npm install babel-eslint eslint mocha",
     "postinstall": "eslint src && babel -d dist src"
   },
   "main": "dist/index.js",
